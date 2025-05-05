@@ -16,7 +16,7 @@ const projects = [
   {
     emoji: '🏥',
     title: 'Healthcare ERP',
-    role: 'Discovery PM @ Umbrage/Infor',
+    role: 'PM @ Umbrage',
     desc: 'Interviewed nurses and stakeholders to surface UX pain points in legacy systems and delivered actionable recommendations to improve findability.'
   }
 ];
