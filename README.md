@@ -11,6 +11,9 @@ Live at: https://omaranees.com
 
 ##  Roadmap
 
+###  Copy Review
+- Go through all text on the site and update/finalize the wording
+
 ###  Favicon & Brand
 - Replace placeholder icon with a more polished PNG/ICO favicon
 
