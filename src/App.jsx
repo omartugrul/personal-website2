@@ -6,7 +6,7 @@ import Now from './components/Now.jsx';
 
 export default function App() {
   return (
-    <main className="max-w-3xl mx-auto px-4">
+    <main className="max-w-6xl mx-auto px-4">
       <Hero />
       <SelectedWork />
       <Now />
