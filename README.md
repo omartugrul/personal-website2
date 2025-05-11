@@ -13,39 +13,54 @@ Live at: https://omaranees.com
 
 ## Roadmap
 
-### Copy Review
+## Roadmap (Prioritized for Learning)
+
+### High Priority — Strong Learning ROI
+
+#### Copy Review [Priority: High]
 - Go through all text on the site and update/finalize the wording
 
-### UI / Experience Improvements
-- Spend time figuring out how to make the UI/experience feel cooler for users
-
-### Analytics
+#### Analytics (PostHog) [Priority: High]
 - Add PostHog to track user interactions
+- Load PostHog key via `.env` for environment-specific config
 
-### Styling & Layout
-- Refine typography scale & responsive breakpoints
-- Introduce accent color for links
+#### Theme Toggle (Dark Mode) [Priority: High]
+- Implement light/dark mode with Tailwind (state management, local storage)
 
-### Animations
-- Fade‑in sections on scroll
-- Hover underlines on links
-- (Backlog) Try animation to cross out “Product Manager” and write “Builder”
-- (Alternative) Cycle through title list:
-  - Product Manager, Builder, Brother, Son, New Yorker
-
-### Footer
+#### Footer [Priority: High]
 - Add a gray footer at the bottom of the page with:
   - Text like: “Built with: React + Tailwind + x y z”
 
-### TypeScript (Optional)
+#### Component Refactor Practice [Priority: High]
+- Refactor one section (e.g., Hero) into smaller components with props
+
+
+### Medium Priority — Moderate Learning ROI
+
+#### Styling & Layout [Priority: Medium]
+- Refine typography scale & responsive breakpoints
+- Introduce accent color for links
+
+#### UI / Experience Improvements [Priority: Medium]
+- Spend time figuring out how to make the UI/experience feel cooler for users
+
+
+### Low Priority — Optional / Nice to Have
+
+#### Animations [Priority: Low]
+- Fade-in sections on scroll
+- Hover underlines on links
+- (Backlog) Try animation to cross out “Product Manager” and write “Builder”
+- (Alternative) Cycle through title list: Product Manager, Builder, Brother, Son, New Yorker
+
+
+#### TypeScript (Optional) [Priority: Low]
 - Migrate a component to TypeScript for learning
 
-### Theme Toggle
-- Implement light/dark mode with Tailwind
 
+### Complete
 
-
-### ~~Favicon & Brand~~ ✅ Done
+### ~~Favicon & Brand [Priority: Low]~~ ✅ Done
 - ~~Replace placeholder icon with a more polished PNG/ICO favicon~~ ✅ Done
 - ~~Consider using a sketch outline of profile pic as the favicon~~ ✅ Done
 
