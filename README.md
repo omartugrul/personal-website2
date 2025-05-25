@@ -13,8 +13,6 @@ Live at: https://omaranees.com
 
 ## Roadmap
 
-## Roadmap (Prioritized for Learning)
-
 ### High Priority — Strong Learning ROI
 
 #### Copy Review [Priority: High]
@@ -27,13 +25,6 @@ Live at: https://omaranees.com
 #### Theme Toggle (Dark Mode) [Priority: High]
 - Implement light/dark mode with Tailwind (state management, local storage)
 
-#### Footer [Priority: High]
-- Add a gray footer at the bottom of the page with:
-  - Text like: “Built with: React + Tailwind + x y z”
-
-#### Component Refactor Practice [Priority: High]
-- Refactor one section (e.g., Hero) into smaller components with props
-
 
 ### Medium Priority — Moderate Learning ROI
 
@@ -43,6 +34,7 @@ Live at: https://omaranees.com
 
 #### UI / Experience Improvements [Priority: Medium]
 - Spend time figuring out how to make the UI/experience feel cooler for users
+
 
 
 ### Low Priority — Optional / Nice to Have
@@ -60,9 +52,16 @@ Live at: https://omaranees.com
 
 ### Complete
 
+### ~~Footer [Priority: High]~~ ✅ Done
+- ~~Add a gray footer at the bottom of the page with:~~ ✅ Done
+  - ~~Text like: “Built with: React + Tailwind + x y z”~~ ✅ Done
+
 ### ~~Favicon & Brand [Priority: Low]~~ ✅ Done
 - ~~Replace placeholder icon with a more polished PNG/ICO favicon~~ ✅ Done
 - ~~Consider using a sketch outline of profile pic as the favicon~~ ✅ Done
+
+### ~~Component Refactor Practice [Priority: High]~~ ✅ Done
+- ~~Refactor one section (e.g., Hero) into smaller components with props~~ ✅ Done
 
 ---
 
