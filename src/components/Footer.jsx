@@ -14,7 +14,7 @@ export default function Footer({ showEmail = true, showLinkedIn = true, showX = 
       <div className="flex justify-between items-center">
         {/* Left-aligned "Built with..." text */}
         <StandardText className="text-sm">
-          Built with React (JavaScript), Tailwind CSS, and Vite
+          Built with ReactJS (with help from Cursor)
         </StandardText>
 
         {/* Right-aligned contact options */}

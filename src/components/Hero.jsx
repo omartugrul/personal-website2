@@ -11,7 +11,7 @@ export default function Hero() {
         Product Manager
       </StandardText>
       <StandardText className="mt-6 max-w-5xl text-lg text-gray-700 leading-relaxed">
-        I’ve worked across energy, retail, and healthcare—building tools for field operators, frontline staff, and everyday customers.
+        I've worked across energy, retail, healthcare, and finance—solving complex business problems for field operators, frontline staff, and everyday customers.  
       </StandardText>
       <StandardText className="mt-6 text-gray-600 max-w-2xl text-md">
         I just like building cool things that solve real problems and make people's lives better.
