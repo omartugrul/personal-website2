@@ -27,7 +27,7 @@ const projects = [
   {
     emoji: '🏥',
     title: ' Healthcare ERP',
-    role: 'Healthcare ERP',
+    role: 'Healthcare Technology',
     desc: 'Interviewed nurses and stakeholders to surface UX pain points in legacy systems and delivered actionable recommendations to improve findability.'
       //to do: better description line
   }
