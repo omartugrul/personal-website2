@@ -8,7 +8,7 @@ export default function Hero() {
         Omar Anees
       </StandardText>
       <StandardText tag="h2" className="mt-2 text-xl text-gray-600">
-        Product Manager
+        Product Manager • Energy, Retail, Healthcare, Finance
       </StandardText>
       <StandardText className="mt-6 max-w-5xl text-lg text-gray-700 leading-relaxed">
         I've worked across energy, retail, healthcare, and finance—solving complex business problems for field operators, frontline staff, and everyday customers.  
