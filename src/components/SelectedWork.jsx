@@ -13,14 +13,15 @@ const projects = [
     emoji: '🛢️',
     title: ' Oil & Gas Field App',
     role: 'Oil & Gas IoT',
-    desc: 'Built iOS and web app enabling field operators to make data-driven decisions by leveraging live telemetry from IoT devices on upstream oil and gas wells.'
+    desc: 'Built iOS and web app enabling field operators to make data-driven decisions by leveraging live telemetry from IoT devices on upstream oil and gas wells.',
+    link: 'https://www.umbrage.com/vital'
       //to do: better description line
   },
   {
     emoji: '🏪',
     title: ' Convenience Loyalty App',
     role: 'Retail & Loyalty',
-    desc: 'Designed and built cashback and loyalty journeys across app and in-store, collaborating with engineering, strategy, and design teams to boost customer engagement and increase share of wallet.'
+    desc: 'Designed and built cashback and loyalty journeys across app and in-store, collaborating with engineering, strategy, and design teams to boost customer engagement and increase share of wallet. Achieved 80k+ downloads.'
       //to do: better description line
 
   },
@@ -43,7 +44,13 @@ export default function SelectedWork() {
         {projects.map((p, i) => (
           <div key={i} className="max-w-2xl mx-auto space-y-1">
             <StandardText tag="h4" className="text-2xl">
-              {p.emoji} {p.title}
+              {p.link ? (
+                <a href={p.link} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
+                  {p.emoji} {p.title}
+                </a>
+              ) : (
+                <>{p.emoji} {p.title}</>
+              )}
             </StandardText>
             <StandardText className="text-gray-500 italic">
               {p.role}
