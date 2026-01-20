@@ -5,21 +5,21 @@ const projects = [
   {
     emoji: '💼',
     title: ' AI Driven Private Equity Due Diligence Platform',
-    role: 'PM @ Umbrage',
+    role: 'Private Equity Tech',
     desc: 'Designed AI-driven due diligence platform for private equity, leveraging Claude Code for rapid POC development to validate concepts and dramatically reduce due diligence analysis time.'
       //to do: better description line
   },
   {
     emoji: '🛢️',
     title: ' Oil & Gas Field App',
-    role: 'PM @ Umbrage',
+    role: 'Oil & Gas IoT',
     desc: 'Built iOS and web app enabling field operators to make data-driven decisions by leveraging live telemetry from IoT devices on upstream oil and gas wells.'
       //to do: better description line
   },
   {
     emoji: '🏪',
     title: ' Convenience Loyalty App',
-    role: 'PM @ Umbrage',
+    role: 'Retail & Loyalty',
     desc: 'Designed and built cashback and loyalty journeys across app and in-store, collaborating with engineering, strategy, and design teams to boost customer engagement and increase share of wallet.'
       //to do: better description line
 
@@ -27,7 +27,7 @@ const projects = [
   {
     emoji: '🏥',
     title: ' Healthcare ERP',
-    role: 'PM @ Umbrage',
+    role: 'Healthcare ERP',
     desc: 'Interviewed nurses and stakeholders to surface UX pain points in legacy systems and delivered actionable recommendations to improve findability.'
       //to do: better description line
   }
