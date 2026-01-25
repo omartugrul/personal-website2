@@ -12,8 +12,8 @@ export default function Now() {
       </StandardText>
       <StandardText className="mt-4">
         Catch me building, learning, or tweaking this site at{' '}
-        <a href="mailto:omar.anees@gmail.com" className="underline">
-          omar.anees@gmail.com
+        <a href="mailto:an.omar.ees@gmail.com" className="underline">
+          an.omar.ees@gmail.com
         </a>.
       </StandardText>
     </section>
