@@ -1,63 +1,55 @@
 import React from 'react';
-import StandardText from './text/StandardText.jsx';
 
 const projects = [
   {
-    emoji: '💼',
-    title: ' AI Driven Private Equity Due Diligence Platform',
-    role: 'Private Equity Tech',
-    desc: 'Designed AI-driven due diligence platform for private equity, leveraging Claude Code for rapid POC development to validate concepts and dramatically reduce due diligence analysis time.'
-      //to do: better description line
+    title: 'AI Due Diligence Platform',
+    industry: 'Private Equity',
+    desc: 'Led discovery and design for an AI-powered due diligence platform. Used Claude Code to rapidly prototype and validate concepts with stakeholders.',
   },
   {
-    emoji: '🛢️',
-    title: ' Oil & Gas Field App',
-    role: 'Oil & Gas IoT',
-    desc: 'Built iOS and web app enabling field operators to make data-driven decisions by leveraging live telemetry from IoT devices on upstream oil and gas wells.',
-    link: 'https://www.umbrage.com/vital'
-      //to do: better description line
+    title: 'Field Operations App',
+    industry: 'Oil & Gas',
+    desc: 'iOS + web app for field operators making decisions from live IoT telemetry on upstream wells.',
+    link: 'https://www.umbrage.com/vital',
   },
   {
-    emoji: '🏪',
-    title: ' Convenience Loyalty App',
-    role: 'Retail & Loyalty',
-    desc: 'Designed and built cashback and loyalty journeys across app and in-store, collaborating with engineering, strategy, and design teams to boost customer engagement and increase share of wallet. Achieved 80k+ downloads.'
-      //to do: better description line
-
+    title: 'Loyalty & Cashback App',
+    industry: 'Retail',
+    desc: 'Designed cashback journeys across app and in-store. 80k+ downloads.',
   },
   {
-    emoji: '🏥',
-    title: ' Healthcare ERP',
-    role: 'Healthcare Technology',
-    desc: 'Interviewed nurses and stakeholders to surface UX pain points in legacy systems and delivered actionable recommendations to improve findability.'
-      //to do: better description line
-  }
+    title: 'Clinical Workflow UX',
+    industry: 'Healthcare',
+    desc: 'Interviewed nurses to surface pain points in legacy ERP. Delivered recommendations that improved task findability.',
+  },
 ];
 
 export default function SelectedWork() {
   return (
-    <section className="py-24 px-6">
-      <StandardText tag="h3" className="text-3xl font-serif text-center mb-12">
-        Selected Work
-      </StandardText>
-      <div className="space-y-12">
-        {projects.map((p, i) => (
-          <div key={i} className="max-w-2xl mx-auto space-y-1">
-            <StandardText tag="h4" className="text-2xl">
-              {p.link ? (
-                <a href={p.link} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
-                  {p.emoji} {p.title}
-                </a>
-              ) : (
-                <>{p.emoji} {p.title}</>
-              )}
-            </StandardText>
-            <StandardText className="text-gray-500 italic">
-              {p.role}
-            </StandardText>
-            <StandardText className="text-gray-700">
+    <section className="pb-10 px-6">
+      <h2 className="text-sm uppercase tracking-widest text-gray-400 mb-6">
+        Shipped at Umbrage
+      </h2>
+      <div className="space-y-6">
+        {projects.map((p) => (
+          <div key={p.title}>
+            <div className="flex items-baseline gap-3">
+              <h3 className="text-base font-semibold text-gray-900">
+                {p.link ? (
+                  <a href={p.link} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-dark transition-colors">
+                    {p.title} →
+                  </a>
+                ) : (
+                  p.title
+                )}
+              </h3>
+              <span className="text-xs text-gray-400">
+                {p.industry}
+              </span>
+            </div>
+            <p className="mt-1 text-gray-600">
               {p.desc}
-            </StandardText>
+            </p>
           </div>
         ))}
       </div>

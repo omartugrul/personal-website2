@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        accent: '#0099ff',
+        'accent-dark': '#0077cc',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
