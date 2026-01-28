@@ -7,7 +7,7 @@ import Footer from './components/Footer.jsx';
 
 export default function App() {
   return (
-    <main className="max-w-2xl mx-auto px-4 text-sm">
+    <main className="max-w-2xl mx-auto px-4 text-sm leading-relaxed">
       <Hero />
       <SideProjects />
       <SelectedWork />
