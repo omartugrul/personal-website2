@@ -9,9 +9,9 @@ const sideProjects = [
   },
   {
     title: 'Boba Wali',
-    status: 'In Development',
+    status: 'Live',
     desc: 'Landing page for a South Asian fusion boba catering business. Built with Next.js, TypeScript, and Framer Motion.',
-    link: null,
+    link: 'https://bobawali.com',
   },
 ];
 
