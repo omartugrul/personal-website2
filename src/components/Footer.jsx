@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="py-10 px-6">
+    <footer className="pb-10 px-6">
       <h2 className="text-sm uppercase tracking-widest text-gray-400 mb-6">
         Let's Talk
       </h2>

@@ -9,18 +9,18 @@ const projects = [
   {
     title: 'Field Operations App',
     industry: 'Oil & Gas',
-    desc: 'iOS + web app for field operators making decisions from live IoT telemetry on upstream wells.',
+    desc: 'iOS + web app for field operators making decisions from live IoT telemetry on upstream wells. Onboarded 100+ internal users supporting $1.8B+ in annual revenue across revenue-critical field operations.',
     link: 'https://www.umbrage.com/vital',
   },
   {
     title: 'Loyalty & Cashback App',
     industry: 'Retail',
-    desc: 'Designed cashback journeys across app and in-store. 80k+ downloads.',
+    desc: 'Scoped loyalty strategy end-to-end for a global convenience store chain. 80k+ downloads, consistently top 5 in Food & Drink in its country. Projected to deliver 57% IRR with a 2.3-year break-even.',
   },
   {
     title: 'Clinical Workflow UX',
     industry: 'Healthcare',
-    desc: 'Interviewed nurses to surface pain points in legacy ERP. Delivered recommendations that improved task findability.',
+    desc: 'Mapped the end-to-end funnel to diagnose drivers of a 10% YoY revenue decline. Redesigned the core scheduling journey through heuristic reviews and usability testing.',
   },
 ];
 
